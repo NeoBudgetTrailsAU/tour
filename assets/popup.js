@@ -12,7 +12,7 @@
     bd.innerHTML = `
       <div class="modal" role="dialog" aria-modal="true" aria-label="Policy Notice">
         <h3>Welcome To NeoSpin</h3>
-        <p>Are you 18+.</p>
+        <p>Get 5000$ Welcome Bonus. Are you 18+.</p>
         <div class="modal-actions">
           <button class="btn" id="age-yes">Yes, Accept</button>
           <button class="btn ghost" id="age-no">Close</button>
@@ -61,4 +61,5 @@
  
 
  
+
 
