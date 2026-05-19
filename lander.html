@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Welcome — NeoSpin AU</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/popup.css">
-    <script src="assets/popup.js" defer></script>
-    <script>
+  <script src="assets/popup.js" defer></script>
+  <script>
     document.addEventListener('DOMContentLoaded', () => {
-        PopupLander(); // only for lander.html
+      PopupLander(); // only for lander.html
     });
-    </script>
+  </script>
   <style>
-  body {
-    margin: 0;
-    height: 100vh;
-    background: url("https://raw.githubusercontent.com/neo-aussie/img/refs/heads/main/neospinlap.png") no-repeat center center;
-    background-size: cover;
-  }
- 
-  /* Mobile (max 600px) */
-  @media (max-width: 600px) {
     body {
-      background-image: url("https://raw.githubusercontent.com/neo-aussie/img/refs/heads/main/neospinmobile%20(2).png");
+      margin: 0;
+      height: 100vh;
+      background: url("assets/img/lap.png") no-repeat center center;
+      background-size: cover;
     }
-  }
- 
-  /* Tablet (601px – 1024px) */
-  @media (min-width: 601px) and (max-width: 1024px) {
-    body {
-      background-image: url("https://raw.githubusercontent.com/neo-aussie/img/refs/heads/main/neospinlap.png");
+
+    /* Mobile (max 600px) */
+    @media (max-width: 600px) {
+      body {
+        background: url("assets/img/mob.png") no-repeat center center;
+        background-size: cover;
+      }
     }
-  }
- 
-  /* Desktop (above 1024px) */
-  @media (min-width: 1025px) {
-    body {
-      background-image: url("https://raw.githubusercontent.com/neo-aussie/img/refs/heads/main/neospinlap.png");
+
+    /* Tablet (601px – 1024px) */
+    @media (min-width: 601px) and (max-width: 1024px) {
+      body {
+        background-image: url("assets/img/lap.png");
+      }
     }
-  }
-</style>
- 
+
+    /* Desktop (above 1024px) */
+    @media (min-width: 1025px) {
+      body {
+        background-image: url("assets/img/lap.png");
+      }
+    }
+  </style>
+
 </head>
+
 <body>
   <section class="hero">
     <h1>Welcome to <br>NeoSpin AU</h1>
-  <footer>
-    © 2025 Budget Trails AU — All rights reserved.
-  </footer>
+    <footer>
+      © 2025 Budget Trails AU — All rights reserved.
+    </footer>
 </body>
-</html>
 
+</html>
